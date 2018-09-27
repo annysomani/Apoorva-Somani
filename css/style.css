@@ -245,3 +245,12 @@ meter {
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5);
 }
+
+.blackhead6 {
+	color: black;
+}
+
+.smalldone {
+	font: 20px Italics;
+	text-decoration: underline;
+}

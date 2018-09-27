@@ -16,6 +16,9 @@
     <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Notable" rel="stylesheet">
@@ -63,6 +66,32 @@
                     <li class="nav-item">
                         <a class="nav-link nav-link-done" href="#donadone">We Done?</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-findus" href="#findus"><button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Wanna Find Us?</button></a>
+
+                        <div class="w3-container">
+                          <div id="id01" class="w3-modal">
+                            <div class="w3-modal-content w3-card-4">
+                              <header class="w3-container w3-teal"> 
+                                <span onclick="document.getElementById('id01').style.display='none'" 
+                                class="w3-button w3-display-topright">&times;</span>
+                                <h2>To find us.....</h2>
+                              </header>
+                              <div class="w3-container">
+                                <p class="blackhead6 smalldone">Click on any of the links below:</p>
+                                <p class="blackhead6"><a href="https://www.linkedin.com/in/anway-somani-b7954b160/">Anway Somani(LinkedIn)</a></p>
+                                <p class="blackhead6"><a href="">Noel Bommu()</a></p>
+                                <p class="blackhead6"><a href="">Sarvesh Angadi()</a></p>
+                                <p class="blackhead6"><a href="">Nikhil Jha()</a></p>
+                                <p class="blackhead6"></p>
+                              </div>
+                              <footer class="w3-container w3-teal">
+                                <p><a href="http://www.groomen.ml">Website: www.groomen.ml</a></p>
+                              </footer>
+                            </div>
+                          </div>
+                        </div>
+                    </li>
                     <!-- Contingency Action -->
                     <!-- <li class="nav-item">
                         <a class="nav-link nav-link-endall" href="#topper">Force Quit</a>
@@ -94,7 +123,7 @@
                             <hr class="hr-light">
 
                             <!-- Description -->
-                            <h4 class="white-text my-4"><span class="teammention">Team:</span><br/><br/><b>Anway Somani</b><br/><b>Sarvesh Angadi</b><br/><b>Noel Bommu</b><br/><b>Nikhil Jha</b></h4>
+                            <h4 class="white-text my-4"><span class="teammention">Team:</span><br/><br/><b>Anway Somani (@anwaysomani)</b><br/><b>Sarvesh Angadi (@sarvesh9991)</b><br/><b>Noel Bommu (@noelbomm5 )</b><br/><b>Nikhil Jha (@nikhil0391)</b></h4>
                         </div>
                     </div>
                 </div>
@@ -720,34 +749,34 @@
 
                 <br><br><br><br><br><br><br><br><br><br><br>
 
-            <!--Section: Revert-->
-            <section id="donadone">
-                <br><br><br><br>
-                <h3 class="majmaj">References:</h3>
-                <p>- www.google.com</p>
-                <p>- www.maybelline.com</p>
-                <p>- www.elle18.in</p>
-                <p>- www.3plusinternational.com</p>
-                <p>- www.thebalancecareers.com</p>
-                <p>- www.cosmo.ph</p>
-                <p>- www.github.com/anwaysomani</p>
-                <hr>
-                <h3 class="majmaj">Technologies used:</h3>
-                <p>- HyperText Markup Language(HTML)</p>
-                <p>- Cascading Style Sheet(CSS)</p>
-                <p>- JavaScript</p>
-                <p>- JQuery</p>
-                <p>- BootStrap</p>
+                <!--Section: Revert-->
+                <section id="donadone">
+                    <br><br><br><br>
+                    <h3 class="majmaj">References:</h3>
+                    <p>- www.google.com</p>
+                    <p>- www.maybelline.com</p>
+                    <p>- www.elle18.in</p>
+                    <p>- www.3plusinternational.com</p>
+                    <p>- www.thebalancecareers.com</p>
+                    <p>- www.cosmo.ph</p>
+                    <p>- www.github.com/anwaysomani</p>
+                    <hr>
+                    <h3 class="majmaj">Technologies used:</h3>
+                    <p>- HyperText Markup Language(HTML)</p>
+                    <p>- Cascading Style Sheet(CSS)</p>
+                    <p>- JavaScript</p>
+                    <p>- JQuery</p>
+                    <p>- BootStrap</p>
 
-                <br><br>
-                <div class="totakenext">
-                <a href="#ender" class="changecolorlink"> 
-                    What's left? -->
-                </a>
-            </div>
+                    <br><br>
+                    <div class="totakenext">
+                    <a href="#ender" class="changecolorlink"> 
+                        What's left? -->
+                    </a>
+                </div>
             </section>
 
-                            <br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br>
 
 
         </div>
@@ -927,6 +956,19 @@
             }
         }
     </script>
+
+    <script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+
 </body>
 
 </html>
