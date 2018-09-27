@@ -254,3 +254,7 @@ meter {
 	font: 20px Italics;
 	text-decoration: underline;
 }
+
+.minenow {
+	background-color: white;
+}

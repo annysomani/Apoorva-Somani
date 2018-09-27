@@ -67,10 +67,10 @@
                         <a class="nav-link nav-link-done" href="#donadone">We Done?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-findus" href="#findus"><button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Wanna Find Us?</button></a>
+                        <a class="nav-link nav-link-findus" href="#findus"><button onclick="document.getElementById('id001').style.display='block'" class="w3-button w3-black">Wanna Find Us?</button></a>
 
                         <div class="w3-container">
-                          <div id="id01" class="w3-modal">
+                          <div id="id001" class="w3-modal">
                             <div class="w3-modal-content w3-card-4">
                               <header class="w3-container w3-teal"> 
                                 <span onclick="document.getElementById('id01').style.display='none'" 
@@ -123,7 +123,7 @@
                             <hr class="hr-light">
 
                             <!-- Description -->
-                            <h4 class="white-text my-4"><span class="teammention">Team:</span><br/><br/><b>Anway Somani (@anwaysomani)</b><br/><b>Sarvesh Angadi (@sarvesh9991)</b><br/><b>Noel Bommu (@noelbomm5 )</b><br/><b>Nikhil Jha (@nikhil0391)</b></h4>
+                            <h4 class="white-text my-4"><span class="teammention">Team:</span><br/><br/><b>Anway Somani (@anwaysomani)</b><br/><b>Sarvesh Angadi (@sarvesh9991)</b><br/><b>Noel Bommu (@noelbommu )</b><br/><b>Nikhil Jha (@nikhil0391)</b></h4>
                         </div>
                     </div>
                 </div>
@@ -630,7 +630,7 @@
                 <button id="myBtn" class="expandBut">Most recommended</button>
 
                 <!-- The Modal -->
-                <div id="myModal" class="modal">
+                <div id="myModal1" class="modal">
 
                     <!-- Modal content -->
                     <div class="modal-content">
@@ -908,14 +908,14 @@
 
     <script type="text/javascript">
         // Get the modal
-        var modal = document.getElementById('myModal');
+        var modal1 = document.getElementById('myModal1');
 
         // Get the image and insert it inside the modal - use its "alt" text as a caption
         var img = document.getElementById('myImg');
         var modalImg = document.getElementById("img01");
         var captionText = document.getElementById("caption");
         img.onclick = function(){
-            modal.style.display = "block";
+            modal1.style.display = "block";
             modalImg.src = this.src;
             captionText.innerHTML = this.alt;
         }
@@ -925,13 +925,14 @@
 
         // When the user clicks on <span> (x), close the modal
         span.onclick = function() { 
-            modal.style.display = "none";
+            modal1.style.display = "none";
         }
     </script>
 
+    <!-- Modal for Perfumes Section -->
     <script type="text/javascript">
         // Get the modal
-        var modal = document.getElementById('myModal');
+        var modal = document.getElementById('myModal1');
 
         // Get the button that opens the modal
         var btn = document.getElementById("myBtn");
@@ -959,12 +960,12 @@
 
     <script>
     // Get the modal
-    var modal = document.getElementById('id01');
+    var modal2 = document.getElementById('id001');
 
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
+        if (event.target == modal2) {
+            modal2.style.display = "none";
         }
     }
     </script>
