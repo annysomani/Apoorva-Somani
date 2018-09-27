@@ -233,4 +233,4 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 
 /*Added self*/
-.w3-sauto,.w3-hover-sautomatic:hover{color:purple!important;background-color:black!important;text-decoration: underline;}
+.w3-sauto,.w3-hover-sautomatic:hover{color:!important;background-color:black!important;text-decoration: underline;}
