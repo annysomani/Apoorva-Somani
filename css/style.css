@@ -258,3 +258,9 @@ meter {
 .minenow {
 	background-color: white;
 }
+
+.fontbadhai {
+	font: 30px Bold;
+	color: yellow;
+	text-decoration: underline;
+}
